@@ -1,6 +1,6 @@
 import os
 
-folder = r'/home/bouchra/Project1/unet-data/output2/seg3/'
+folder = r'/path/to/file/'
 count = 0
 for file_name in os.listdir(folder):
     source = folder + file_name
